@@ -1,0 +1,90 @@
+[
+  {
+    "id": "bali",
+    "name": "Bali, Indonesia",
+    "type": "beach",
+    "tags": ["snorkeling", "nightlife", "local food", "beach", "surfing", "temples"],
+    "imageUrl": "https://images.unsplash.com/photo-1559305289-4c31700ba9cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxCYWxpJTIwYmVhY2glMjB0cm9waWNhbHxlbnwxfDB8fHwxNzg0MzA5MDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "dailyBudget": 120,
+    "bestFor": "Beach lovers who want vibrant nightlife, world-class snorkeling and incredible street food.",
+    "sampleActivities": ["Snorkeling at Blue Lagoon", "Beach clubs in Seminyak", "Ubud rice terraces", "Uluwatu temple sunset"],
+    "sampleFood": ["Nasi Goreng", "Babi Guling", "Fresh seafood at Jimbaran"]
+  },
+  {
+    "id": "maldives",
+    "name": "Maldives",
+    "type": "beach",
+    "tags": ["snorkeling", "beach", "diving", "luxury", "local food"],
+    "imageUrl": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMGJlYWNoJTIwb3ZlcndhdGVyfGVufDF8MHx8fDE3ODQzMDkwNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "dailyBudget": 300,
+    "bestFor": "Pristine reefs and overwater serenity for divers and snorkelers seeking calm luxury.",
+    "sampleActivities": ["Reef snorkeling", "Sunset dolphin cruise", "Sandbank picnic", "Scuba diving"],
+    "sampleFood": ["Mas Huni", "Garudhiya fish soup", "Fresh grilled reef fish"]
+  },
+  {
+    "id": "santorini",
+    "name": "Santorini, Greece",
+    "type": "beach",
+    "tags": ["beach", "nightlife", "local food", "romance", "sightseeing"],
+    "imageUrl": "https://images.unsplash.com/photo-1560703650-ef3e0f254ae0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxTYW50b3JpbmklMjBHcmVlY2UlMjBjb2FzdGxpbmV8ZW58MXwwfHx8MTc4NDMwOTA3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "dailyBudget": 200,
+    "bestFor": "Cliffside sunsets, buzzing beach bars and Aegean cuisine for a stylish getaway.",
+    "sampleActivities": ["Oia sunset", "Red Beach swim", "Caldera boat tour", "Fira nightlife"],
+    "sampleFood": ["Fava", "Tomatokeftedes", "Fresh grilled octopus"]
+  },
+  {
+    "id": "kyoto",
+    "name": "Kyoto, Japan",
+    "type": "cultural",
+    "tags": ["culture", "local food", "temples", "history", "sightseeing"],
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxLeW90byUyMEphcGFuJTIwdGVtcGxlJTIwY3VsdHVyZXxlbnwxfDB8fHwxNzg0MzA5MDcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "dailyBudget": 150,
+    "bestFor": "Timeless temples, tea houses and refined Japanese cuisine for culture seekers.",
+    "sampleActivities": ["Fushimi Inari shrine", "Arashiyama bamboo grove", "Tea ceremony", "Gion district walk"],
+    "sampleFood": ["Kaiseki", "Yudofu", "Matcha sweets"]
+  },
+  {
+    "id": "swiss-alps",
+    "name": "Swiss Alps, Switzerland",
+    "type": "mountain",
+    "tags": ["adventure", "hiking", "nature", "sightseeing"],
+    "imageUrl": "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxTd2lzcyUyMEFscHMlMjBtb3VudGFpbnMlMjBoaWtpbmd8ZW58MXwwfHx8MTc4NDMwOTA4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "dailyBudget": 250,
+    "bestFor": "Dramatic peaks, alpine hikes and scenic trains for outdoor adventurers.",
+    "sampleActivities": ["Jungfraujoch train", "Lauterbrunnen valley hike", "Paragliding", "Lake Geneva cruise"],
+    "sampleFood": ["Fondue", "Rösti", "Raclette"]
+  },
+  {
+    "id": "marrakech",
+    "name": "Marrakech, Morocco",
+    "type": "cultural",
+    "tags": ["culture", "local food", "shopping", "history", "nightlife"],
+    "imageUrl": "https://images.unsplash.com/photo-1624805098931-098c0d918b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxNYXJyYWtlY2glMjBNb3JvY2NvJTIwbWFya2V0fGVufDF8MHx8fDE3ODQzMDkwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "dailyBudget": 90,
+    "bestFor": "Bustling souks, aromatic tagines and vibrant nightlife for culture and food fans.",
+    "sampleActivities": ["Jemaa el-Fnaa square", "Souk shopping", "Majorelle Garden", "Desert day trip"],
+    "sampleFood": ["Tagine", "Couscous", "Mint tea and pastries"]
+  },
+  {
+    "id": "barcelona",
+    "name": "Barcelona, Spain",
+    "type": "city",
+    "tags": ["nightlife", "local food", "beach", "culture", "architecture"],
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxCYXJjZWxvbmElMjBjaXR5JTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODQzMDkwODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "dailyBudget": 160,
+    "bestFor": "Gaudí architecture, tapas crawls and beachfront nightlife in one city.",
+    "sampleActivities": ["Sagrada Familia", "Park Güell", "Barceloneta beach", "Gothic Quarter tapas tour"],
+    "sampleFood": ["Tapas", "Paella", "Patatas bravas"]
+  },
+  {
+    "id": "costa-rica",
+    "name": "Costa Rica",
+    "type": "adventure",
+    "tags": ["adventure", "nature", "snorkeling", "hiking", "wildlife"],
+    "imageUrl": "https://images.unsplash.com/photo-1611222566512-cb8dd8e689e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxDb3N0YSUyMFJpY2ElMjByYWluZm9yZXN0JTIwd2F0ZXJmYWxsfGVufDF8MHx8fDE3ODQzMDkwODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "dailyBudget": 130,
+    "bestFor": "Rainforest zip-lines, volcanoes and reef snorkeling for thrill-seekers.",
+    "sampleActivities": ["Arenal volcano hike", "Zip-lining", "Manuel Antonio snorkeling", "Wildlife spotting"],
+    "sampleFood": ["Gallo Pinto", "Casado", "Ceviche"]
+  }
+]

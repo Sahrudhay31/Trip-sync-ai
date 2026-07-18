@@ -1,0 +1,118 @@
+{
+  "version": "1.0.0",
+  "widgets": [
+    {
+      "uri": "/destination-card",
+      "name": "Destination Card",
+      "description": "Displays details of the recommended destination with tags, match score, activities, budget estimation and alternatives",
+      "examples": [
+        {
+          "name": "Bali recommendation",
+          "description": "Recommended beach destination card for Bali",
+          "data": {
+            "id": "bali",
+            "name": "Bali",
+            "type": "beach",
+            "imageUrl": "https://source.unsplash.com/1600x900/?bali,travel",
+            "tags": ["beach", "temples", "surfing", "culture"],
+            "dailyBudget": 80,
+            "estimatedTripBudget": 560,
+            "whyItFits": "Bali is a great match for a beach trip. It offers stunning surfing beaches and beautiful cultural temples that align with your interests.",
+            "matchScore": 95,
+            "matchedInterests": ["surfing", "culture"],
+            "sampleActivities": ["Visit Uluwatu temple", "Surf at Kuta beach", "Scuba dive in Tulamben"],
+            "sampleFood": ["Nasi Goreng", "Babi Guling"],
+            "days": 7,
+            "alternatives": [
+              {
+                "id": "maldives",
+                "name": "Maldives",
+                "imageUrl": "https://source.unsplash.com/1600x900/?maldives",
+                "type": "beach"
+              }
+            ]
+          }
+        }
+      ],
+      "tags": ["planning", "recommendation", "destination"]
+    },
+    {
+      "uri": "/itinerary-days",
+      "name": "Itinerary Days",
+      "description": "Displays the day-wise itinerary list for the selected destination with step-by-step plans",
+      "examples": [
+        {
+          "name": "Bali Itinerary",
+          "description": "A 3-day itinerary sample for Bali",
+          "data": {
+            "found": true,
+            "destinationId": "bali",
+            "destinationName": "Bali",
+            "type": "beach",
+            "imageUrl": "https://source.unsplash.com/1600x900/?bali,travel",
+            "days": 3,
+            "totalEstimatedBudget": 240,
+            "currency": "USD",
+            "dayPlans": [
+              {
+                "dayId": "bali-day-1",
+                "day": 1,
+                "title": "Day 1: Arrival & First Impressions",
+                "imageUrl": "https://source.unsplash.com/1600x900/?bali,travel",
+                "places": ["Uluwatu Temple"],
+                "activities": ["Morning: fly in", "Evening: settle in and watch sunset at Uluwatu"],
+                "food": ["Lunch: Nasi Goreng", "Dinner: Seafood BBQ"],
+                "estimatedBudget": 80
+              }
+            ]
+          }
+        }
+      ],
+      "tags": ["itinerary", "days", "timeline"]
+    },
+    {
+      "uri": "/weather-panel",
+      "name": "Weather Panel",
+      "description": "Displays live weather conditions and multi-day forecast for the destination",
+      "examples": [
+        {
+          "name": "London Weather",
+          "description": "Current weather and forecast for London",
+          "data": {
+            "found": true,
+            "city": "London",
+            "country": "United Kingdom",
+            "lat": 51.5074,
+            "lng": -0.1278,
+            "timezone": "Europe/London",
+            "current": {
+              "tempC": 18,
+              "tempF": 64,
+              "feelsLikeC": 17,
+              "condition": "Partly cloudy",
+              "conditionEmoji": "⛅",
+              "humidity": 65,
+              "windKph": 12,
+              "uvIndex: ": 3
+            },
+            "forecast": [
+              {
+                "date": "2026-07-18",
+                "dayName": "Sat",
+                "maxTempC": 21,
+                "minTempC": 14,
+                "maxTempF": 70,
+                "minTempF": 57,
+                "condition": "Clear sky",
+                "conditionEmoji": "☀️",
+                "precipitationMm": 0
+              }
+            ]
+          }
+        }
+      ],
+      "tags": ["weather", "forecast", "live"]
+    }
+  ],
+  "generatedAt": "2026-07-17T18:00:00.000Z"
+}
