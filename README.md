@@ -18,13 +18,6 @@ cd my-server
 npm run dev
 ```
 
-## Common Commands
-
-```bash
-npm run dev
-npm run build
-npm start
-```
 
 ## NitroStudio
 
