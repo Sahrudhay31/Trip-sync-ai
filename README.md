@@ -15,11 +15,7 @@ MCP server and basic widgets.
 ```bash
 npx @nitrostack/cli init my-server --template typescript-starter
 cd my-server
-npm run dev
-```
-
-## Common Commands
-
+npm r
 ```bash
 npm run dev
 npm run build
