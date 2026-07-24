@@ -1,4 +1,4 @@
-# NitroStack Starter Template
+# NitroStack Starter 
 
 Minimal template for learning NitroStack fundamentals with a calculator-focused
 MCP server and basic widgets.
